@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#contenedorInfo {
+    padding-top: 80px;
+    background-color: #1be7ff;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);     
+}
+
+#foto{
+    padding-left: 50px;
+   
+    
+}
+#info{
+    width: 1205px;
+    padding-left: 210px;
+    height: 260px;
+}
+#info h1{
+    padding-top: 80px;
+    font-family: Impact 'Arial Narrow Bold;
+}
+#info h4{
+    font-size:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contenedorInfo img{
+    padding-left: 12px;
+    width: 450px;
+    border-radius:10px 120px 10px 120px ;
+    box-shadow: 5px 5px;
+}
+
+#contenedorNav{
+    width: 100%;
+    text-align: right;
+}
+
+
+#navegar{
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    display: flex;
+    list-style: none;
+    background-color: #1be7ff;
+    justify-content: end;
+}
+#navegar li{
+    width: 100px; 
+    padding: 10px; 
+    padding-top: 25px;
+    padding-right: 155px;
+    font-size: 25px;
+    
+}
+#navegar  a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#menu-icono{
+    display: none;
+    width: 100%;
+    
+    background-color: #9fc8d9;
+    border-top: 1px solid #094660;
+    border-bottom: 1px solid #094660;
+}
+#menu-icono img{
+    height: 67px;
+}
+#principal{
+    padding-left: 500px;
+    padding-top: 40px;
+}
+#principal h1{
+    padding-left: 300px;
+    padding-bottom: 50px;
+
+}
+
+
+
+#habilidades:hover{
+    
+    background-color: #ff5714 ;
+}
+#contacto:hover{
+    
+    background-color: #e4ff1a ;
+}
+
+#proyectos:hover{
+   
+    background-color: #6eeb83;
+}
+
+
+
+ .contenedor{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1px;
+
+ }
+.contenedor figure{
+    overflow: hidden;
+    width:200px ;
+}
+.habilidades :hover img{
+    transform: scale(1.2,1.2);
+}
+ .habilidades img{
+    width: 200px;
+    height: 200px;
+    object-fit:cover ;
+    border-radius: 15px 10px 20px;
+    transition: all 1.5s; 
+ }
+ .habilidades{
+     width:200px;
+     
+     
+ }
+
+footer{
+    margin: 105px;
+    background-color: chartreuse;
+}
+
+@media(max-width:1120px){
+    
+    #navegar{
+        display: none;
+    }
+    #menu-icono{
+        display: block;
+    }
+    #contenedorInfo{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    #contenedorInfo img{
+        width: 430px;
+        border-radius:10px 120px 10px 120px ;
+        box-shadow: 5px 5px;
+    }
+    #foto{
+        padding-left: 0px;
+    }
+
+    #info{
+        padding: 0px;
+        font-size: 10px;
+
+    }
+    #principal{
+        background-color: brown;
+        padding-left:0px ;
+    }
+    #principal h1{
+        padding-left: 120px;
+        
+        
+    }
+
+
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+   
+    
+  }
+
+   
+
+
+}
